@@ -1,0 +1,13 @@
+dataset,model,impl,metric_name,metric,oob,fit_s,predict_s
+adult,tree d=10,treesfs,accuracy,0.860144,,2.1814,0.00549
+adult,tree d=10,scikit-learn,accuracy,0.860267,,0.2586,0.00510
+adult,tree unlimited,treesfs,accuracy,0.811682,,6.9880,0.00987
+adult,tree unlimited,scikit-learn,accuracy,0.809778,,0.4088,0.00704
+adult,forest x100,treesfs,accuracy,0.852835,0.855348,85.1562,2.59615
+adult,forest x100,scikit-learn,accuracy,0.851668,0.853936,2.6906,0.13457
+california,tree d=10,treesfs,R²,0.658986,,0.9144,0.00282
+california,tree d=10,scikit-learn,R²,0.667733,,0.2620,0.00167
+california,tree unlimited,treesfs,R²,0.581994,,20.9419,0.00578
+california,tree unlimited,scikit-learn,R²,0.601628,,0.4493,0.00335
+california,forest x100,treesfs,R²,0.800148,0.806313,192.1884,0.66362
+california,forest x100,scikit-learn,R²,0.801391,0.806317,4.9411,0.12541
